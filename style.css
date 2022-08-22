@@ -33,7 +33,7 @@ h4{
 p{
     font-family: "Poppins";
     font-weight: 300;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 /* Navigation Bar */
@@ -48,13 +48,12 @@ ul{
     background-color: #333333;
     color: #fff;
     height: 64px;
-    width: 1440px;
+    min-width: 1440px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     position: relative;
     z-index: 1;
-    
 }
 
 .nav-link{
@@ -95,11 +94,11 @@ ul{
 }
 
 .intro-content{
-    width: 369px;
+    width: 385px;
     height: 207px;
     margin-left: 62px;
     margin-right: -140px;
-    margin-top: 446px;
+    margin-top: 405px;
 }
 .intro-content h2{
     color: #FFD7A8;
@@ -113,7 +112,7 @@ ul{
     background-color: #FFD7A8;
     border: none;
     border-radius: 15px;
-    margin-top: 10px;
+    margin-top: 18px;
 }
 
 .order-link{
@@ -125,9 +124,72 @@ ul{
 }
 
 .bun-carousel{
-    max-width: 1176px;
+    width: 100%;
     height: auto;
-    margin-top: -72px;
+    margin-top: -64px;
     position: relative;
     z-index: 0;
+}
+
+/* History Section */
+
+.history{
+    height:auto;
+    background-color: #333333;
+    padding: 121px 178px 56px;
+    position: relative;
+}
+.history-top{
+    display: flex;
+    justify-content: space-between;
+}
+.history-content{
+    width: 575px;
+}
+.history-top h2,.history-top p, .history-top h3{
+    color: #fff;
+}
+
+.order{
+    margin-top: 58px;
+    
+}
+
+.delivery-logo{
+    display: block;
+    margin:4px;
+}
+
+.stats{
+    display: flex;
+    justify-content: space-between;
+    margin: 38px 150px 0;
+    color: #FFD7A8;
+    text-align: center;
+}
+
+.stat-box p{
+    font-size: 20px;
+    margin-bottom: 18px;
+}
+
+.history-img{
+    position: absolute;
+
+}
+
+.v-img3{
+    left: 52px;
+    top: 6px;
+}
+
+.v-img2{
+    top: 358px;
+    left:0px;
+}
+
+.v-img1{
+    top: 319px;
+    right: 7px;
+    bottom:3px;
 }

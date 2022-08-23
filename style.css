@@ -196,3 +196,169 @@ ul{
 
 /* Products Section */
 
+.products{
+    text-align: center;
+}
+.products h2{
+    margin-top: 120px;
+    text-align: center;
+}
+
+.card{
+    display: flex;
+    width: 1300px;
+    justify-content: space-around;
+    padding: 60px 55px 20px 85px;
+}
+.card img{
+    width: 274px;
+    height: auto;
+}
+
+.products button{
+    margin: 0;
+}
+
+/* Mission Section  */
+
+.mission h2{
+    margin-top: 120px;
+    text-align: center;
+}
+
+.story{
+    display: flex;
+    margin: 52px 162px 88px;
+    column-gap: 139px;
+}
+
+.story img{
+    width: 542px;
+}
+
+.story p{
+    margin-top: 68px;
+}
+
+/* Loyalty and Gift Card Section */
+
+.loyalty, .gift-cards{
+    height: 225px;
+    display: flex;
+    align-items: center;
+}
+
+.loyalty{
+    background-color: #FEF5EA;
+}
+
+.gift-cards{
+    background-color: #A0846C;
+}
+
+.loyalty-content, .gift-content{
+    margin-left: 69px;
+    margin-right: auto;
+}
+
+.loyalty-content{
+    color: #A0846C;
+}
+
+.gift-content{
+    color: #fff;
+}
+
+.loyalty button, .gift-cards button{
+    width: 206px;
+    height: 50px;
+    border-radius: 15px;
+    border-style: none;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 14px;
+    margin-right: 175px;
+}
+
+.loyalty button {
+    background-color: #A0846C;
+    color: #fff;
+}
+
+.gift-cards button{
+    background-color: #fff;
+}
+
+/* Footer Section */
+
+footer{
+    height: 164px;
+    background-color: #333333;
+    color: #FEF9F3;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-logo{
+    width: 40px;
+    margin-top: 100px;
+    margin-left: 65px;
+    margin-bottom: 26px;
+}
+
+.social-left, .social-right{
+    display: flex;
+    align-items: flex-end;
+}
+.social-left > p {
+    font-size: 12px;
+    margin-bottom: 38px;
+    margin-right: 30px;
+}
+.social-right{
+    margin-right: 64px;
+}
+
+.social-right>p{
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-right: 23px;
+}
+
+.social-right img{
+    width: 24px;
+    margin-bottom: 33px;
+    margin-right: 6px;
+}
+
+.cta{
+    margin-top:54px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: auto;
+    margin-left:65px;
+}
+
+.cta input{
+    width:310px;
+    border-radius: 15px;
+    border-style: none;
+    margin: 8px 15px;
+}
+
+.cta p{
+    display: inline;
+}
+
+.cta-sub{
+    color: #fff;
+    width:82px;
+    height: 25px;
+    border-radius: 15px;
+    background-color: #FFD7A8;
+    border-style: none;
+}
+

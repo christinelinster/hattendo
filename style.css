@@ -152,7 +152,7 @@ ul{
 
 .order{
     margin-top: 58px;
-    
+
 }
 
 .delivery-logo{
@@ -206,7 +206,7 @@ ul{
 
 .card{
     display: flex;
-    width: 1300px;
+    width: auto;
     justify-content: space-around;
     padding: 60px 55px 20px 85px;
 }
@@ -339,7 +339,7 @@ footer{
     flex-direction: column;
     align-items: center;
     margin-right: auto;
-    margin-left:65px;
+    margin-left:auto;
 }
 
 .cta input{
@@ -361,4 +361,3 @@ footer{
     background-color: #FFD7A8;
     border-style: none;
 }
-
